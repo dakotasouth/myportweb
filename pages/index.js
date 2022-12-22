@@ -13,7 +13,7 @@ export default function Home() {
       <div className="home-container">
         <Image className='circle-image' src={prof} alt="Picture of the author" width={300} height={300} />
         <div className="greeting">
-          <h1>Hi, I'm Dakota</h1>
+          <h1>Hi, I&apos;m Dakota</h1>
           <h2>Software Developer</h2>
         </div>
         <div className='about'>
