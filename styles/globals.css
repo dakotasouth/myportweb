@@ -66,31 +66,30 @@ h2 {
 h3 {
   color: var(--main-color);
   font-size: 1.5rem;
-  width: 25%;
-}
-
-h4 {
-  color: var(--ter-color);
-  width: 25%;
 }
 
 .home-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     'circle-image greeting'
-    'about about';
+    'about about'
+    'exp exp'
+    'education education'
+    'links links';
+  grid-template-columns: 1fr 3fr;
   grid-gap: 5rem;
   padding: 1rem;
   margin-top: 3vh;
+  max-width: 500px;
 }
 
 .circle-image {
   grid-area: circle-image;
   border-radius: 50%;
   justify-self: right;
-  margin-right: 3rem;
+  align-self: center;
+  width: 15rem;
+  height: 15rem;
 }
 
 .greeting {
@@ -99,7 +98,6 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  margin-left: 3rem;
   margin-top: 3rem;
 }
 
@@ -116,9 +114,118 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-items: top;
-  align-items: center;
+  align-items: left;
   text-align: left;
   margin-top: 3vh;
   color: white;
   gap: 1rem;
+  max-height: 40vh;
+  font-size: 1.3rem;
+}
+
+.exp {
+  grid-area: exp;
+  display: flex;
+  flex-direction: column;
+  justify-items: top;
+  align-items: left;
+  text-align: left;
+  margin-top: 3vh;
+  color: var(--main-color);
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.exp-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.date {
+  color: var(--ter-color);
+  white-space: nowrap;
+  display: flex;
+  align-items: top;
+  font-size: 1.2rem;
+}
+
+.content {
+  color: var(--ter-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.content a {
+  color: var(--main-color);
+}
+
+.education {
+  grid-area: education;
+  display: flex;
+  flex-direction: column;
+  justify-items: top;
+  align-items: left;
+  text-align: left;
+  margin-top: 3vh;
+  color: var(--main-color);
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.education-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.education-date {
+  color: var(--ter-color);
+  white-space: nowrap;
+  display: flex;
+  align-items: top;
+  font-size: 1.2rem;
+}
+
+.education li {
+  margin: 10px 0;
+}
+
+.courses {
+  margin-top: 1rem;
+}
+
+.courses p {
+  color: var(--main-color);
+}
+
+.courses li {
+  margin-left: 3rem;
+}
+
+.links {
+  grid-area: links;
+  display: flex;
+  flex-direction: column;
+  justify-items: top;
+  align-items: left;
+  text-align: left;
+  margin-top: 3vh;
+  color: var(--main-color);
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  gap: 10rem;
+  font-size: 1.3rem;
 }

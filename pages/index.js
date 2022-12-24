@@ -18,13 +18,74 @@ export default function Home() {
         </div>
         <div className='about'>
           <h3>About</h3>
-          <h4>
-            I am recent graduate of University of South Dakota
-            where I studied Computer Science, Mathematics, and 
-            Artificial Intelligence. Now, I am currently a Software
-            Developer at Gallup, Inc. in Omaha, NE.
-          </h4>
+          <div className='content'>
+          Software Developer with a strong foundation 
+          in programming languages such as Java, Python, 
+          and C#, as well as experience/success in competitive 
+          programming.
+          </div>
         </div>
+        <div className='exp'>
+          <h3>Experience</h3>
+          <div className='exp-1'>
+              <div className='date'><p>May 2022 - Present</p></div>
+              <div className='content'>
+                <a>Software Developer Intern - Gallup</a>
+                <div>
+                  Worked on a team of 5 to develop a <span style={{color: '#eeeeee'}}>.NET </span>
+                  app using <span style={{color: '#eeeeee'}}>C#</span> and <span style={{color: '#eeeeee'}}>SQL</span> to automate Gallups
+                  QA process as well as a <span style={{color: '#eeeeee'}}>React</span> app to display 
+                  the results of an ML model.
+                </div>
+              </div>
+          </div>
+        </div>
+        <div className='education'>
+          <h3>Education</h3>
+          <div className='education-1'>
+            <div className='date'><p>Aug 2019 - Dec 2022</p></div>
+            <div className='content'>
+              <a href='https://www.usd.edu/Academics/Colleges-and-Schools/college-of-arts-sciences/computer-science'>University of South Dakota</a>
+              <div>
+                <ul>
+                  <li>Major: Computer Science</li>
+                  <li>Minor: Mathematics</li>
+                  <li>Specialization: Artificial Intelligence</li>
+                </ul>
+                <div className='courses'>
+                  <p>Relevant Coursework :</p>
+                  <ul>
+                    <li>Algorithms & Data Structures</li>
+                    <li>Software Engineering</li>
+                    <li>Machine Learning</li>
+                    <li>Data Mining</li>
+                    <li>Human Computer Interaction</li>
+                    <li>Machine Organization</li>
+                    <li>Networks and Security</li>
+                    <li>Operating Systems</li>
+                    <li>Information Retrieval</li>
+                    <li>High Performance Computing</li>
+                  </ul>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div className='links'>
+          <h3>Links</h3>
+          <div className='link'>
+            <div className='date'><p>Github</p></div>
+            <div className='content'><a href='https://github.com/dakotasouth'>dakotasouth</a></div>
+          </div>
+          <div className='link'>
+            <div className='date'><p>Github</p></div>
+            <div className='content'><a href='https://github.com/dakotasouth'>dakotasouth</a></div>
+          </div>
+          <div className='link'>
+            <div className='date'><p>Github</p></div>
+            <div className='content'><a href='https://github.com/dakotasouth'>dakotasouth</a></div>
+          </div>
+        </div>      
       </div>
     </>
   )
