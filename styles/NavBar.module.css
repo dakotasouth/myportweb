@@ -5,14 +5,15 @@
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    font-size: 1.2rem;
+    justify-content: center;
+    gap: 10rem;
+    font-size: 1.5rem;
     font-family: 'Inter', sans-serif;
 }
 
-.nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
+@media screen and (max-width: 768px) {
+    .nav {
+        gap: 5rem;
+        font-size: 1.5rem;
+    }
 }
