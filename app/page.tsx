@@ -3,19 +3,19 @@ import prof from '../public/Gallupprof.jpg';
 
 export default function Page() {
     return (
-        <section className="flex flex-col w-1/2">
-            <div className="flex flex-row justify-between items-start gap-0.5 text-xs">
-                <figure >
-                    <Image className='rounded-full' src={prof} alt="Dakota South" width={200} height={200} />
+        <section className="min-w-0 m-auto max-w-7xl">
+            <div className="flex flex-row items-start text-xs">
+                <figure className='w-1/3 pr-5'>
+                    <Image className='w-40 h-auto m-auto rounded-full' src={prof} alt="Dakota South"/>
                 </figure>
-                <div className='flex-row w-96'>
+                <div className='w-2/3 pl-5 m-auto'>
                     <h1 className="text-6xl font-bold text-primary font-inter">Hi,</h1>
-                    <h1 className="text-6xl font-bold text-primary font-inter">I&apos;m Dakota</h1>
+                    <h1 className="text-5xl font-bold text-primary font-inter">I&apos;m Dakota</h1>
                     <h2 className="text-3xl font-bold text-tertiary font-inter">Software Engineer</h2>    
                 </div>
             </div>
             <div className='items-start gap-10 text-left text-white flex-column justify-items-start mt-7'>
-                <h3 className='text-2xl font-bold text-primary font-inter'>About</h3>
+                <h3 className='pt-10 text-2xl font-bold text-primary font-inter'>About</h3>
                 <div className='text-xl text-secondary'>
                 Software Developer with a strong foundation 
                 in programming languages such as Java, Python, 
@@ -45,7 +45,7 @@ export default function Page() {
                             <div className='mt-2 text-xl text-secondary'>
                             Full-stack development with tools such as <span className='text-primary'>AWS</span>, <span className='text-primary'>.NET</span>, and <span className='text-primary'>Blazor</span> to create
                             and maintain systems for Gallup and our clients. These systems
-                            handle large amounts of data and are used by thousands of people.
+                            handle large amounts of data and are used by thousands of people. 
                             </div>
                         </div>
                     </div>

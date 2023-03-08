@@ -2,11 +2,11 @@ import Link from "next/link";
 
 const NavBar = () => {
     return (
-        <nav className="flex h-16 p-5 place-content-center gap-40 text-2xl">
-            <Link href="/">
+        <nav className="block h-16 min-w-0 py-5 m-auto text-2xl text-center max-w-prose">
+            <Link className="pr-10" href="/">
                 Home
             </Link>
-            <Link href="/projects">
+            <Link className="pl-10" href="/projects">
                 Projects
             </Link>            
         </nav>
