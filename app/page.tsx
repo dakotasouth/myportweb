@@ -26,8 +26,19 @@ export default function Page() {
             <div className='flex flex-col text-left flex-nowrap mt-7'>
                 <h3 className='text-2xl font-bold text-primary'>Experience</h3>
                 <div className='flex flex-col'>
-                    <div className='flex flex-row justify-end'>
-                        <div className='mr-3 text-xl text-secondary'><p>May 2022 - Dec 2022</p></div>
+                    <div className='flex flex-row justify-end pt-2'>
+                        <div className='mr-3 text-xl text-secondary'><p className='whitespace-nowrap'>Jan 2023 - Present</p></div>
+                        <div className='max-w-sm text-secondary'>
+                            <a className='text-xl text-primary'>Software Developer - Gallup</a>
+                            <div className='mt-2 text-xl text-secondary'>
+                                Full-stack development with tools such as <span className='text-primary'>AWS</span>, <span className='text-primary'>.NET</span>, and <span className='text-primary'>Blazor</span> to create
+                                and maintain systems for Gallup and our clients. These systems
+                                handle large amounts of data and are used by thousands of people. 
+                            </div>
+                        </div>
+                    </div>
+                    <div className='flex flex-row justify-end mt-3'>
+                        <div className='mr-3 text-xl text-secondary'><p className='whitespace-nowrap'>May 2022 - Dec 2022</p></div>
                         <div className='max-w-sm text-secondary'>
                             <a className='text-xl text-primary'>Software Developer Intern - Gallup</a>
                             <div className='mt-2 text-xl text-secondary'>
@@ -38,22 +49,11 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-                    <div className='flex flex-row justify-end mt-3'>
-                        <div className='mr-3 text-xl text-secondary'><p>Jan 2023 - Present</p></div>
-                        <div className='max-w-sm text-secondary'>
-                            <a className='text-xl text-primary'>Software Developer - Gallup</a>
-                            <div className='mt-2 text-xl text-secondary'>
-                            Full-stack development with tools such as <span className='text-primary'>AWS</span>, <span className='text-primary'>.NET</span>, and <span className='text-primary'>Blazor</span> to create
-                            and maintain systems for Gallup and our clients. These systems
-                            handle large amounts of data and are used by thousands of people. 
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div className='mt-7'>
                 <h3 className='text-2xl font-bold text-primary'>Education</h3>
-                <div className=''>
+                <div className='pt-2'>
                     <div className='text-xl text-secondary'><p>Aug 2019 - Dec 2022</p></div>
                     <div className='mt-4 text-xl text-primary'>
                     <a href='https://www.usd.edu/Academics/Colleges-and-Schools/college-of-arts-sciences/computer-science'>University of South Dakota</a>
