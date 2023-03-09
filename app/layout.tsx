@@ -4,9 +4,9 @@ import './globals.css';
 export default function RootLayout({ children } : { children: React.ReactNode }) {
     return (
       <html lang="en">
-        <body className="font-inter bg-black text-white">
+        <body className="text-white bg-black font-inter">
             <NavBar />
-            <main className="flex justify-center p-8 min-h-screen">
+            <main className="min-w-0 p-10 m-auto max-w-prose">
                 {children}
             </main>
         </body>
