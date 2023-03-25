@@ -14,7 +14,29 @@ module.exports = {
       },
       fontFamily: {
         'inter': ['Inter', 'sans-serif']
-      }  
+      },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: '#eeeeee',
+            a: {
+              color: '#eeeeee',
+              '&:hover': {
+                color: '#bbbbbb',
+              },
+            },
+            h1: {
+              color: '#eeeeee',
+            },
+            h2: {
+              color: '#eeeeee',
+            },
+            h3: {
+              color: '#eeeeee',
+            },
+          },
+        },
+      }), 
     },
   },
   plugins: [require('@tailwindcss/typography')],
