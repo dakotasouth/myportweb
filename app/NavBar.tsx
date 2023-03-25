@@ -8,8 +8,11 @@ const NavBar = () => {
                 <Link className="pr-10" href="/">
                     Home
                 </Link>
-                <Link className="pl-10" href="/projects">
+                <Link className="px-10" href="/projects">
                     Projects
+                </Link>
+                <Link className="pl-10" href="/blog">
+                    Blog
                 </Link>
             </nav>
             <div className="fixed top-0 right-0 py-5 pr-5">
