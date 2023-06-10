@@ -9,9 +9,9 @@ export default function Page() {
                     <Image className='w-40 h-auto m-auto rounded-full' src={prof} alt="Dakota South"/>
                 </figure>
                 <div className='w-2/3 pl-5 m-auto'>
-                    <h1 className="text-6xl font-bold text-primary font-inter">Hi,</h1>
-                    <h1 className="text-5xl font-bold text-primary font-inter">I&apos;m Dakota</h1>
-                    <h2 className="text-3xl font-bold text-tertiary font-inter">Software Engineer</h2>    
+                    <h1 className="text-6xl font-bold text-primary">Hi,</h1>
+                    <h1 className="text-5xl font-bold text-primary">I&apos;m Dakota</h1>
+                    <h2 className="text-3xl font-bold text-tertiary">Software Engineer</h2>    
                 </div>
             </div>
             <div className='items-start gap-10 text-left text-white flex-column justify-items-start mt-7'>
@@ -51,37 +51,7 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-            <div className='mt-7'>
-                <h3 className='text-2xl font-bold text-primary'>Education</h3>
-                <div className='pt-2'>
-                    <div className='text-xl text-secondary'><p>Aug 2019 - Dec 2022</p></div>
-                    <div className='mt-4 text-xl text-primary'>
-                    <a href='https://www.usd.edu/Academics/Colleges-and-Schools/college-of-arts-sciences/computer-science'>University of South Dakota</a>
-                    <div className='text-xl text-secondary'>
-                        <ul className='ml-6 list-disc'>
-                        <li>Major: Computer Science</li>
-                        <li>Minor: Mathematics</li>
-                        <li>Specialization: Artificial Intelligence</li>
-                        </ul>
-                        <div className='mt-5'>
-                            <div className='text-primary'>Relevant Coursework :</div>
-                            <ul className='ml-6 list-disc'>
-                                <li>Algorithms & Data Structures</li>
-                                <li>Software Engineering</li>
-                                <li>Machine Learning</li>
-                                <li>Data Mining</li>
-                                <li>Human Computer Interaction</li>
-                                <li>Machine Organization</li>
-                                <li>Networks and Security</li>
-                                <li>Operating Systems</li>
-                                <li>Information Retrieval</li>
-                                <li>High Performance Computing</li>
-                            </ul>
-                        </div>
-                    </div>
-                    </div> 
-                </div>
-            </div>
+            
             <div className='flex flex-col gap-3 mt-6 text-left'>
                 <h3 className='text-2xl font-bold text-primary'>Projects</h3>
                 <div className='flex flex-row gap-6'>

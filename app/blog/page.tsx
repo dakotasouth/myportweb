@@ -9,7 +9,7 @@ const Blog = () => {
 
     return (
         <div>
-            <h2 className="text-5xl font-bold text-secondary font-inter pb-5">Blog</h2>
+            <h2 className="pb-5 text-5xl font-bold text-secondary font-sfpro">Blog</h2>
             <div>{postPreviews}</div>
         </div>
     );

@@ -4,7 +4,7 @@ import SignIn from "./SignIn";
 const NavBar = () => {
     return (
         <div className="">
-            <nav className="block h-16 min-w-0 py-5 m-auto text-2xl text-center max-w-prose">
+            <nav className="block h-16 min-w-0 py-5 m-auto text-2xl text-center max-w-prose font-sfpro">
                 <Link className="pr-10" href="/">
                     Home
                 </Link>
