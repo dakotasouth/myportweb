@@ -10,7 +10,7 @@ export default function Page() {
                 </figure>
                 <div className="w-2/3 pl-5 m-auto">
                     <h1 className="text-5xl font-bold sm:text-6xl text-primary">Hi,</h1>
-                    <h1 className="text-4xl font-bold sm:text-5xl text-primary">I'm Dakota</h1>
+                    <h1 className="text-4xl font-bold sm:text-5xl text-primary">I&apos;m Dakota</h1>
                     <h2 className="text-3xl font-bold sm:text-3xl text-tertiary">Software Engineer</h2>    
                 </div>
 
@@ -51,7 +51,7 @@ export default function Page() {
         <a className="text-xl text-primary">Software Developer Intern - Gallup</a>
         <div className="mt-2 text-xl text-secondary">
             Worked on a team of 5 to develop a <span className="text-primary">.NET </span>
-            app using <span className="text-primary">C#</span> and <span className="text-primary">SQL</span> to automate Gallup's
+            app using <span className="text-primary">C#</span> and <span className="text-primary">SQL</span> to automate Gallup&apos;s
             QA process as well as a <span className="text-primary">React</span> app to display 
             the results of an ML model.
         </div>
