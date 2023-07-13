@@ -1,7 +1,7 @@
 
 
 import AuthContext from './AuthContext';
-import NavBar from "./NavBar";
+import NavBar from "./components/NavBar";
 import './globals.css';
 
 

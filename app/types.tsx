@@ -5,3 +5,10 @@ export type Post = {
     title: string,
     body: string,
 }
+
+export type PostPreview = {
+    title: string
+    description: string
+    previewImage: string
+    slug: string
+}

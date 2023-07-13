@@ -1,5 +1,5 @@
 import Link from "next/link";
-import SignIn from "./SignIn";
+import SignIn from "../SignIn";
 
 const NavBar = () => {
     return (
@@ -15,9 +15,6 @@ const NavBar = () => {
                     Blog
                 </Link>
             </nav>
-            <div className="fixed top-0 right-0 py-5 pr-5">
-                <SignIn/>
-            </div>
         </div>
     )
 }
